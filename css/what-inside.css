@@ -1,0 +1,39 @@
+.what-inside {
+    background-image: url(../images/what-inside/what-inside__background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 53px 0 44px 0;
+}
+
+.what-inside__title-intro {
+    text-align: center;
+}
+
+.what-inside__title {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+}
+
+.what-inside__sub-title {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+    margin-top: 37px;
+}
+
+.what-inside__intro {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.what-inside__arrow{
+    margin-top: 30px;
+    text-align: center;
+}
+

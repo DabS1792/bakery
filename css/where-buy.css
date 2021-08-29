@@ -1,0 +1,57 @@
+.where-buy {
+    background: url(../images/where-buy/where-buy__background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.where-buy__background-opacity {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.where-buy__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.where-buy__title {
+    margin: 61px 0px 31px 0;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.where-buy__sub-title {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.where-buy__line {
+    margin-bottom: 51px;
+}
+
+.where-buy__partners-top{
+    margin-bottom: 36px;
+}
+
+.where-buy__partners-top img+img {
+    margin-left: 31px;
+}
+
+.where-buy__partners-btm img+img {
+    margin-left: 31px;
+}
+
+.where-buy__arrow {
+    margin-top: 72px;
+    padding-bottom: 57px;
+}

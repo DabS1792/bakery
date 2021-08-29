@@ -1,0 +1,124 @@
+.coupon {
+    background-color: #f9f7f7;
+    margin-bottom: 79px;
+}
+
+.coupon__intro {
+    display: flex;
+}
+
+.coupon__description {
+    margin-top: 82px;
+}
+
+.coupon__title {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #0b0806;
+    margin-bottom: 38px;
+}
+
+.coupon__text-intro {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #0b0806;
+}
+
+.coupon__text-up {
+    margin-bottom: 32px;
+}
+
+.coupon__text-mdl {
+    margin-bottom: 34px;
+}
+
+.coupon__text-btm {
+    margin-bottom: 30px;
+}
+
+.coupon__form {}
+
+.coupon__input-email {
+    width: 348px;
+    height: 38px;
+    padding: 15px 0 15px 21px;
+    border: 2px solid black;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 200;
+    letter-spacing: 0.025em;
+    color: #000101;
+    margin-bottom: 15px;
+}
+
+.coupon__form-intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.coupon__form-intro .coupon__input-check {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.coupon__form-intro input:checked {
+    background-color: black;
+    color: black;
+}
+
+.coupon__form-intro div {
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 200;
+    letter-spacing: 0.025em;
+    color: #000101;
+}
+
+.coupon__btns {
+    display: flex;
+}
+
+.coupon__btns__btn-left {
+    border: 2px solid #000;
+    padding: 0px 26px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000;
+    transition: all 0.3s linear;
+}
+
+.coupon__btns__btn-right {
+    margin-left: 30px;
+    border: 2px solid #000;
+    padding: 0px 27px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000;
+    transition: all 0.3s linear;
+}
+
+.coupon__btns__btn-left:hover, .coupon__btns__btn-right:hover {
+    background-color: #000;
+    color: white;
+}
+
+.coupon__ticket {
+    margin-top: 82px;
+    margin-left: 51px;
+    max-height: 500px;
+    height: 100%;
+}

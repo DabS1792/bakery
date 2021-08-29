@@ -1,0 +1,189 @@
+.bread-prices {
+    background-color: #ffffff;
+    padding: 62px 0 64px 0;
+}
+
+.bread-prices__container {
+    width: 685px;
+    margin: 0 auto;
+}
+
+.bread-prices__title {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.bread-prices__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 0;
+    margin-bottom: 46px;
+}
+
+.bread-prices__item {
+    padding: 19px 15px 38px 15px;
+    text-align: center;
+    min-width: 0;
+}
+
+.item__name {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+    margin-top: 15px;
+}
+
+.item__sub-name {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+}
+
+.item__weight {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+    margin-top: 13px;
+}
+
+.item__price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #0f1417;
+    margin-top: 11px;
+}
+
+.slider {
+    min-width: 0;
+    position: relative;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    flex-direction: row;
+}
+
+.slick-arrow.slick-prev {
+    position: absolute;
+    top: 28%;
+    left: -64px;
+    z-index: 10;
+    background-color: transparent;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.slick-arrow.slick-next {
+    position: absolute;
+    top: 28%;
+    right: -64px;
+    z-index: 10;
+    background-color: transparent;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    border-right: 3px solid #000;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: 3px solid #000;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 7px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    border-color: #000;
+    border: 0px solid transparent;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: grey;
+}
+
+.bread-prices__text-checkout {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #170e0e;
+    margin-bottom: 43px;
+}
+
+.bread-prices__btns {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bread-prices__btn-left {
+    border: 3px solid #000;
+    padding: 0px 33px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000;
+    transition: all 0.3s linear;
+}
+
+.bread-prices__btn-right {
+    margin-left: 30px;
+    border: 3px solid #000;
+    padding: 0px 33px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000;
+    transition: all 0.3s linear;
+}
+
+.bread-prices__btn-left:hover, .bread-prices__btn-right:hover {
+    background-color: #000;
+    color: white;
+}
